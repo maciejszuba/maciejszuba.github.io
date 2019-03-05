@@ -14,7 +14,6 @@
     box-sizing: border-box;
 }
 
-
 .display-it-as-block ~ .hide{
     display: block;
 }
@@ -22,7 +21,6 @@
 .hide{
     display: none;
 }
-
 
 .pixelfont{
     font-family: "Pixelfont", Arial;
@@ -217,6 +215,7 @@ ul{
 
 .profile>ul.experience>li{
     margin: 0 10vw;
+
 }
 
 .profile>ul.skills>li>svg{
@@ -300,9 +299,8 @@ ul{
 #checkmark {
     display: none;
     position: absolute;
-    font-size: 20pt;
-    top: 35%;
-    left: 72%;
+    top: 40%;
+    left: 70%;
 }
 
  #cv{
@@ -506,4 +504,92 @@ ul{
         font-size: 46pt;
     }
    
+ }
+
+ @media screen and (max-width: 400px) {
+    .sprite {
+        width: 140px;
+    }
+
+    .comic-cloud {
+        font-size: 10pt;
+        line-height: 2.5vh;
+        width: 45vw;
+    }
+
+    .main-menu {
+        align-self: start;
+    }
+
+    .profile>ul.main-menu>li{
+        margin-top: 5px;
+        padding: 4px 0;
+    }
+
+    .profile>ul.main-menu>li>svg {
+        height: 35px;
+    }
+
+    .profile>ul.skills, .profile>ul.interests, .profile>ul.experience, .profile>ul.contact{
+        width: 100vw;
+        margin: 10px 0 0 0;
+        
+    }
+    
+    .profile>ul.skills>li>svg, .profile>ul.experience>li>svg{
+        height: 15vh;
+    }
+
+    .profile>ul.interests>li>svg, .profile>ul.contact>li>svg{
+        height: 18vh;
+    }
+
+    .profile>ul.contact>li .hide {
+        font-size: 10pt;
+    }
+    
+    .profile>ul.contact>li:nth-child(odd) .hide{
+        left: -30%;
+    }
+     
+    .profile>ul.contact>li:nth-child(even) .hide{
+        right: -30%;
+    }
+
+    #mail-link>button {
+        border-radius: 8px;
+        margin: 8px auto;
+        font-size: 12pt;
+    }    
+
+    #checkmark {
+        top: 45%;
+        height: 18px;
+    }
+
+    #back-button{
+        width: 100px;
+        height: 40px;
+        font-size: 14pt;
+        margin-right: -50px;
+    }
+
+    #cv {
+        grid-row-start: 3; 
+        align-self: center;      
+    }
+
+    #cv>svg{
+        height: 65px;
+    }
+
+    #cv::before{
+        left: -120%;
+        top: 40%;
+    }
+
+    #cv::after {
+        right: -115%;
+        top: 40%;
+    }
  }

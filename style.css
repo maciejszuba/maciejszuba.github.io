@@ -489,7 +489,7 @@ ul{
     }
    
     .profile>ul.main-menu>li>svg {
-        height: 5vh;
+        height: 7vh;
     }
 
     .profile>ul.contact>li:nth-child(odd) .hide{
@@ -525,7 +525,6 @@ ul{
         margin-top: 5px;
         padding: 4px 0;
     }
-
 
     .profile>ul.skills, .profile>ul.interests, .profile>ul.experience, .profile>ul.contact{
         width: 100vw;

@@ -268,6 +268,7 @@ ul{
 
 #mail-link>textarea{
     position: absolute;
+    top: -200%;
     height: 0;
     width: 0;
     opacity: 0;
@@ -342,7 +343,8 @@ ul{
     display: none;
     grid-column-start: 1;
     justify-self: end;
-    grid-row-start: 4;
+    grid-row-start: 3;
+    align-self: end;
     border: 3px #E812CB solid;
     background-color:#565656c0;
     border-radius: 10px;

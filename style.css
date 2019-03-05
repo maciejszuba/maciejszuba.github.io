@@ -375,9 +375,9 @@ ul{
     .avatar>img{
         width: 240px;
     }      
-    #ux-intern{
+    /* #ux-intern{
         margin-left: -70px;
-    }
+    } */
 }
  
  @media screen and (max-width: 800px) {
@@ -410,7 +410,7 @@ ul{
     }
     .profile{
         grid-template-columns: 50% 50%;
-        grid-template-rows: 25% 50% 12.5% 12.5%;
+        grid-template-rows: 25% 45% 17.5% 12.5%;
     }
 
     .profile>ul.main-menu>li{
@@ -439,9 +439,9 @@ ul{
        justify-self: start;
     }
 
-    #ux-intern{
+    /* #ux-intern{
         margin-left: 30px;
-    }
+    } */
 
     #screen{
         display: none;
@@ -512,8 +512,8 @@ ul{
     }
 
     .comic-cloud {
-        font-size: 10pt;
-        line-height: 2.5vh;
+        font-size: 12pt;
+        line-height: 3vh;
         width: 45vw;
     }
 
@@ -527,7 +527,7 @@ ul{
     }
 
     .profile>ul.main-menu>li>svg {
-        height: 35px;
+        height: 12vh;
     }
 
     .profile>ul.skills, .profile>ul.interests, .profile>ul.experience, .profile>ul.contact{

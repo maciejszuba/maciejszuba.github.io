@@ -441,10 +441,6 @@ ul{
        justify-self: start;
     }
 
-    /* #ux-intern{
-        margin-left: 30px;
-    } */
-
     #screen{
         display: none;
     }
@@ -491,7 +487,7 @@ ul{
     }
    
     .profile>ul.main-menu>li>svg {
-        height: 8vh;
+        height: 12vw;
     }
 
     .profile>ul.contact>li:nth-child(odd) .hide{

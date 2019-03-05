@@ -491,7 +491,7 @@ ul{
     .profile>ul.main-menu>li>svg {
         height: 5vh;
     }
-    
+
     .profile>ul.contact>li:nth-child(odd) .hide{
         left: -20%;
     }
@@ -530,7 +530,6 @@ ul{
     .profile>ul.skills, .profile>ul.interests, .profile>ul.experience, .profile>ul.contact{
         width: 100vw;
         margin: 10px 0 0 0;
-        
     }
     
     .profile>ul.skills>li>svg, .profile>ul.experience>li>svg{
@@ -582,11 +581,11 @@ ul{
 
     #cv::before{
         left: -120%;
-        top: 40%;
+        top: 30%;
     }
 
     #cv::after {
         right: -115%;
-        top: 40%;
+        top: 30%;
     }
  }

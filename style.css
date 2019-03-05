@@ -488,6 +488,8 @@ ul{
    
     .profile>ul.main-menu>li>svg {
         height: 12vw;
+        max-height: 50px;
+        max-width: 300px;
     }
 
     .profile>ul.contact>li:nth-child(odd) .hide{
@@ -501,7 +503,6 @@ ul{
     #cv>svg>g>text{
         font-size: 46pt;
     }
-   
  }
 
  @media screen and (max-width: 400px) {

@@ -433,7 +433,7 @@ ul{
     }
 
     .profile>ul.interests>li, .profile>ul.contact>li {
-        margin: 3vh 6vw;
+        margin: 1vh 6vw;
     }
 
     .profile>ul.experience>li{
@@ -477,8 +477,9 @@ ul{
     }
 
     .comic-cloud {
-        font-size: 17pt;
-        line-height: 3vh;
+        font-size: 15pt;
+        line-height: 2.5vh;
+        width: 45vw;
     }
 
     .main-menu{
@@ -493,12 +494,10 @@ ul{
         height: 55px;
     }
 
+    .profile>ul.contact>li .hide
+
     #cv>svg>g>text{
         font-size: 46pt;
-    }
-
-    .comic-cloud {
-        width: 50vw;
     }
    
  }

@@ -266,6 +266,14 @@ ul{
     border-radius: 10px;
 }
 
+.profile>ul.contact>li:nth-child(odd) .hide{
+    left: -50%;
+}
+ 
+.profile>ul.contact>li:nth-child(even) .hide{
+    right: -50%;
+}
+
 #mail-link>textarea{
     position: absolute;
     top: -200%;
@@ -296,14 +304,6 @@ ul{
     top: 35%;
     left: 72%;
 }
-
-.profile>ul.contact>li:nth-child(odd) .hide{
-   left: -50%;
-}
-
-.profile>ul.contact>li:nth-child(even) .hide{
-    right: -50%;
- }
 
  #cv{
      position: relative;
@@ -494,7 +494,13 @@ ul{
         height: 55px;
     }
 
-    .profile>ul.contact>li .hide
+    .profile>ul.contact>li:nth-child(odd) .hide{
+        left: -20%;
+    }
+
+    .profile>ul.contact>li:nth-child(even) .hide{
+        right: -20%;
+    }
 
     #cv>svg>g>text{
         font-size: 46pt;

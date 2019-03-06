@@ -472,40 +472,6 @@ ul{
         justify-content: space-between;
     }
 
-    .comic-cloud {
-        font-size: 15pt;
-        line-height: 2.5vh;
-        width: 45vw;
-    }
-
-    .main-menu{
-        grid-column-start: 2;
-    }
-
-    .main-menu>li{
-       padding: 0;
-    }
-   
-    .profile>ul.main-menu>li>svg {
-        height: 12vw;
-        max-height: 50px;
-        max-width: 300px;
-    }
-
-    .profile>ul.contact>li:nth-child(odd) .hide{
-        left: -20%;
-    }
-
-    .profile>ul.contact>li:nth-child(even) .hide{
-        right: -20%;
-    }
-
-    #cv>svg>g>text{
-        font-size: 46pt;
-    }
- }
-
- @media screen and (max-width: 400px) {
     .sprite {
         width: 140px;
     }
@@ -516,7 +482,8 @@ ul{
         width: 45vw;
     }
 
-    .main-menu {
+    .main-menu{
+        grid-column-start: 2;
         align-self: start;
     }
 
@@ -524,12 +491,18 @@ ul{
         margin-top: 5px;
         padding: 4px 0;
     }
-
+   
+    .profile>ul.main-menu>li>svg {
+        height: 12vw;
+        max-height: 50px;
+        max-width: 300px;
+    }
+    
     .profile>ul.skills, .profile>ul.interests, .profile>ul.experience, .profile>ul.contact{
         width: 100vw;
         margin: 10px 0 0 0;
     }
-    
+
     .profile>ul.skills>li>svg, .profile>ul.experience>li>svg{
         height: 15vh;
     }
@@ -541,7 +514,7 @@ ul{
     .profile>ul.contact>li .hide {
         font-size: 10pt;
     }
-    
+
     .profile>ul.contact>li:nth-child(odd) .hide{
         left: -30%;
     }
@@ -577,6 +550,10 @@ ul{
         height: 65px;
     }
 
+    #cv>svg>g>text{
+        font-size: 46pt;
+    }
+
     #cv::before{
         left: -120%;
         top: 30%;
@@ -586,4 +563,4 @@ ul{
         right: -115%;
         top: 30%;
     }
- }
+}

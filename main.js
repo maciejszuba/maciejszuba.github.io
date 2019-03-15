@@ -3,7 +3,7 @@ let backButton = document.getElementById("back-button");
 let categoriesContent = document.querySelectorAll(" .profile>ul.skills, .profile>ul.interests, .profile>ul.experience, .profile>ul.contact");
 let dialogueOptions = document.querySelectorAll(".profile>ul.skills>li, .profile>ul.experience>li, .profile>ul.interests>li, .profile>ul.contact>li");
 let linkSvgs = document.querySelectorAll(".profile>ul.contact>li>svg");
-//This variable will store identify the interval timeout
+//This variable will store the interval timeout
 let lastDialogueBeingTyped;
 const mobileMediaQuery = window.matchMedia("(max-width: 800px");
 mobileMediaQuery.addListener(setInterfaceBasedOnWidth);

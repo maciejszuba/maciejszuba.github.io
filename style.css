@@ -176,6 +176,10 @@ ul{
     to {fill: #d6529f; stroke: #d6529f; filter: drop-shadow(0 0 5px #d6529f)}
 }
 
+.profile>ul.main-menu>li>svg:hover {
+    transform: scale(1.05);
+}
+
 #screen{
     grid-column-start: 3;
     grid-row-start: 2;
@@ -198,6 +202,10 @@ ul{
 .profile>ul.skills>li, .profile>ul.experience>li, .profile>ul.interests>li, .profile>ul.contact>li{
     margin: 2vh 15px;
     transition: opacity 0.2s linear;
+}
+
+.profile>ul.skills>li>svg:hover, .profile>ul.experience>li>svg:hover, .profile>ul.interests>li>svg:hover, .profile>ul.contact>li:hover{
+    transform: scale(1.1);
 }
 
 .not-selected {
@@ -315,6 +323,10 @@ ul{
 
  #cv>svg {
     animation: glow-green 2s ease-in infinite alternate;
+}
+
+#cv>svg:hover{
+    transform: scale(1.05);
 }
 
 #back-button {

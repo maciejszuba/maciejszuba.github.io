@@ -178,6 +178,7 @@ ul{
 
 .profile>ul.main-menu>li>svg:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 #screen{
@@ -206,6 +207,7 @@ ul{
 
 .profile>ul.skills>li>svg:hover, .profile>ul.experience>li>svg:hover, .profile>ul.interests>li>svg:hover, .profile>ul.contact>li:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .not-selected {
@@ -327,6 +329,7 @@ ul{
 
 #cv>svg:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 #back-button {
